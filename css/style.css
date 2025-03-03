@@ -199,10 +199,22 @@ li{
     display: flex;
 }
 
-.about__img,
-.about__con{
-    width: 50%;
+.about__wrapper{
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+
+
+.about__con,
+.about__img{
+    width: 100%;
+    /* border: 1px solid blue; */
     align-items: center;
+}
+
+.about__img{
+    width: 100%;
 }
 
 .about__text{
@@ -355,6 +367,7 @@ color: #25468A;
 .footer__content p{
     color: black;
 }
+
 
 
 
